@@ -9,6 +9,8 @@
   float: left;
   padding-top: 20px;
   margin-bottom: 50px;
+  color: white;
+
 }
 
 .content .col {
@@ -27,7 +29,7 @@ hr {
   padding: 0;
   margin: 0;
   font-family: 'Oswald', sans-serif;
-  color: #666;
+  color: white;
   font-size: 1.2em;
   line-height: 1.9em;
   text-align: left;
@@ -93,7 +95,7 @@ body {
 
 header {
   background-color: red;
-  background: url("bg.jpg") repeat;
+  background-image: url("../../image/bg.jpg");
   width: 100%;
   padding: 35px 0;
   color: white;
@@ -114,9 +116,11 @@ header h1 {
 }
 
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
   font-family: 'Oswald', sans-serif;
+  color: white;
 }
 
 li h2 {
@@ -138,7 +142,7 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: #EED5D2;
-  color: black;
+  color: white;
 }
 
 nav ul li a:active {
@@ -150,10 +154,11 @@ section p {
   font-size: 1.4em;
   font-family: 'Oswald', sans-serif;
   line-height: 50px;
+  color: white;
 }
 
 .wrapper {
-  background-image: url(pbj.jpg);
+  background-image: url(../../image/pbi.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -162,7 +167,7 @@ section p {
   padding: 15px;
   text-align: right;
   font-family: 'Oswald', sans-serif;
-  color: black;
+  color: white;
   font-size: 1.2em;
   text-decoration: none;
 }
@@ -216,11 +221,15 @@ section {
   padding: 40px;
   width: 65%;
   margin: 0 auto;
+  color: white;
+
 }
 
 section li {
   font-size: 1em;
   padding-right: 1px;
+  color: white;
+
 }
 
 .handle {
@@ -230,13 +239,13 @@ section li {
   box-sizing: border-box;
   padding: 15px 10px;
   cursor: pointer;
-  color: #EEE0E5;
+  color: white;
   display: block;
 }
 
 footer {
   background-color: #675847;
-  color: #fff;
+  color: white;
   font-size: 15px;
   text-align: center;
   height: 40px;
