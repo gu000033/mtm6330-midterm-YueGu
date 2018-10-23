@@ -299,265 +299,268 @@ footer p {
   nav ul li:hover {
     background-color: #EED5D2;
   }
+}
 
-  @media only screen and (min-width: 480px) {
-    .image {
-      width: 33.3333333333%;
-    }
+@media only screen and (min-width: 480px) {
+  .image {
+    width: 33.3333333333%;
+  }
 
-    .wrapper {
-      margin: 0 auto;
-    }
+  .wrapper {
+    margin: 0 auto;
+  }
 
-    header h1 {
-      font-size: 5em;
-      margin-top: -100px;
-    }
+  header h1 {
+    font-size: 5em;
+    margin-top: -100px;
+  }
 
-    p {
-      font-size: 1.4em;
-    }
+  p {
+    font-size: 1.4em;
+  }
 
-    .col-main {
-      width: 65%;
-      margin-right: 5%;
-      float: left;
-
-    }
-
-    .col-side {
-      width: 30%;
-      float: left;
-
-    }
-
-    .col-side p {
-      font-size: 0.8em;
-      float: left;
-    }
-
-    .port-tab {
-      display: block;
-    }
-
-    .port-phone,
-    .land-phone,
-    .desktop,
-    .wide-desk {
-      display: none;
-    }
-
-    footer {
-      clear: both;
-    }
-
-
-
+  .col-main {
+    width: 65%;
+    margin-right: 5%;
+    float: left;
 
   }
 
-  @media only screen and (min-width: 600px) {
-    .image {
-      width: 33.3333333333%;
-    }
+  .col-side {
+    width: 30%;
+    float: left;
 
-    header {
-      background-color: green;
-    }
+  }
 
-    p {
-      font-size: 1.5em;
+  .col-side p {
+    font-size: 0.8em;
+    float: left;
+  }
 
-    }
+  .port-tab {
+    display: block;
+  }
 
-    header h1 {
-      font-size: 5em;
-      margin-top: -100px;
-    }
+  .port-phone,
+  .land-phone,
+  .desktop,
+  .wide-desk {
+    display: none;
+  }
 
-    .desktop {
-      display: block;
-    }
-
-    .port-phone,
-    .land-phone,
-    .port-tab,
-    .wide-desk {
-      display: none;
-    }
-
-    @media only screen and (min-width: 768px) {
-      .image {
-        width: 33.3333333333%;
-      }
-
-      header {
-        background-color: blue;
-      }
-
-      header h1 {
-        font-size: 5em;
-        text-align: top;
-        padding-left: 120px;
-        margin-top: 0px;
-      }
-
-      p {
-        font-size: 1.1em;
-      }
-
-      .wide-desk {
-        display: block;
-      }
-
-      .port-phone,
-      .land-phone,
-      .port-tab,
-      .desktop {
-        display: none;
-      }
+  footer {
+    clear: both;
+  }
 
 
 
-      nav ul li {
-        display: inline-block;
-        padding: 20px;
-      }
 
-      nav ul li:hover {
-        background-color: #EED5D2;
-      }
+}
 
-      /* row control */
+@media only screen and (min-width: 600px) {
+  .image {
+    width: 33.3333333333%;
+  }
 
-      /* Perishable Clearfix: use on any parent with floating children */
-      .clearfix:after,
-      .row:after {
-        visibility: hidden;
-        display: block;
-        font-size: 0;
-        content: " ";
-        clear: both;
-        height: 0;
-      }
+  header {
+    background-color: green;
+  }
 
-      * html .clearfix,
-      * html .row {
-        zoom: 1;
-      }
+  p {
+    font-size: 1.5em;
 
-      /* IE6 */
-      *:first-child+html .clearfix,
-      *:first-child+html .row {
-        zoom: 1;
-      }
+  }
 
-      /* IE7 */
+  header h1 {
+    font-size: 5em;
+    margin-top: -100px;
+  }
 
+  .desktop {
+    display: block;
+  }
 
+  .port-phone,
+  .land-phone,
+  .port-tab,
+  .wide-desk {
+    display: none;
+  }
+}
 
-      /* column control */
-      .wrapper {
-        margin: 0 auto;
-        width: 100%;
-        padding: 0;
-      }
+@media only screen and (min-width: 768px) {
+  .image {
+    width: 33.3333333333%;
+  }
 
-      /* handles behavior, e.g. floating and base column properties */
-      .col {
-        float: left;
-        margin-left: 1.6%;
-        margin-bottom: 2em;
-      }
+  header {
+    background-color: blue;
+  }
 
-      /* remove margin from first column to equal 100% of total width */
-      .col:first-child {
-        margin-left: 0;
-      }
+  header h1 {
+    font-size: 5em;
+    text-align: top;
+    padding-left: 120px;
+    margin-top: 0px;
+  }
 
-      /* set base column widths */
-      .col-12 {
-        width: 100%;
-      }
+  p {
+    font-size: 1.1em;
+  }
 
-      .col-11 {
-        width: 91.53%;
-      }
+  .wide-desk {
+    display: block;
+  }
 
-      .col-10 {
-        width: 83.06%;
-      }
-
-      .col-9 {
-        width: 74.6%;
-      }
-
-      .col-8 {
-        width: 66.13%;
-      }
-
-      .col-7 {
-        width: 57.66%;
-      }
-
-      .col-6 {
-        width: 49.2%;
-      }
-
-      .col-5 {
-        width: 40.73%;
-      }
-
-      .col-4 {
-        width: 32.26%;
-      }
-
-      .col-3 {
-        width: 23.8%;
-      }
-
-      .col-2 {
-        width: 15.332%;
-      }
-
-      .col-1 {
-        width: 6.866%;
-      }
+  .port-phone,
+  .land-phone,
+  .port-tab,
+  .desktop {
+    display: none;
+  }
 
 
-      /* responsive element scaling */
-      img.scale,
-      iframe.scale,
-      object.scale {
-        height: auto;
-        max-width: 100%;
-      }
+
+  nav ul li {
+    display: inline-block;
+    padding: 20px;
+  }
+
+  nav ul li:hover {
+    background-color: #EED5D2;
+  }
+
+  /* row control */
+
+  /* Perishable Clearfix: use on any parent with floating children */
+  .clearfix:after,
+  .row:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+
+  * html .clearfix,
+  * html .row {
+    zoom: 1;
+  }
+
+  /* IE6 */
+  *:first-child+html .clearfix,
+  *:first-child+html .row {
+    zoom: 1;
+  }
+
+  /* IE7 */
 
 
-      /* Portrait phones and down */
-      @media only screen and (max-width: 30em) {
-        .col {
-          margin-left: 0;
-        }
 
-        .col-12,
-        .col-11,
-        .col-10,
-        .col-9,
-        .col-8,
-        .col-7,
-        .col-6,
-        .col-5,
-        .col-4,
-        .col-3,
-        .col-2,
-        .col-1 {
-          width: 100%;
-        }
+  /* column control */
+  .wrapper {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+  }
 
-        .wrapper {
-          width: 100%;
-          margin: 0 auto;
-          padding: 0;
-        }
-      }
+  /* handles behavior, e.g. floating and base column properties */
+  .col {
+    float: left;
+    margin-left: 1.6%;
+    margin-bottom: 2em;
+  }
+
+  /* remove margin from first column to equal 100% of total width */
+  .col:first-child {
+    margin-left: 0;
+  }
+
+  /* set base column widths */
+  .col-12 {
+    width: 100%;
+  }
+
+  .col-11 {
+    width: 91.53%;
+  }
+
+  .col-10 {
+    width: 83.06%;
+  }
+
+  .col-9 {
+    width: 74.6%;
+  }
+
+  .col-8 {
+    width: 66.13%;
+  }
+
+  .col-7 {
+    width: 57.66%;
+  }
+
+  .col-6 {
+    width: 49.2%;
+  }
+
+  .col-5 {
+    width: 40.73%;
+  }
+
+  .col-4 {
+    width: 32.26%;
+  }
+
+  .col-3 {
+    width: 23.8%;
+  }
+
+  .col-2 {
+    width: 15.332%;
+  }
+
+  .col-1 {
+    width: 6.866%;
+  }
+
+
+  /* responsive element scaling */
+  img.scale,
+  iframe.scale,
+  object.scale {
+    height: auto;
+    max-width: 100%;
+  }
+
+}
+
+/* Portrait phones and down */
+@media only screen and (max-width: 30em) {
+  .col {
+    margin-left: 0;
+  }
+
+  .col-12,
+  .col-11,
+  .col-10,
+  .col-9,
+  .col-8,
+  .col-7,
+  .col-6,
+  .col-5,
+  .col-4,
+  .col-3,
+  .col-2,
+  .col-1 {
+    width: 100%;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
